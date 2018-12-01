@@ -1,0 +1,14 @@
+
+var myfriend = {
+    akruthi: {
+	ramya {
+	    shalini {
+	        tall [
+		    
+		]
+	    }
+
+	}
+    }
+}
+console.log(akruthi.tall[0].ramya.cute[0].praneetha.cool[0].yashu.fair[0].nissi.short[0].shalini.married[0].bindu.good[0])

@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+    <head>
+         <style>
+                    table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        padding: 5px;
+                    }
+                    th {
+                        text-align: left;
+                    }
+                    p{
+                        color: maroon;
+                    }
+                    </style>
+
+    </head>
+    <body>
+    <form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+        <h1>Form </h1>
+        
+        <p style="color:blue;">Fill in the following details</p>
+
+        <label>First Name</label>
+        <input type="text" name=firstname id="firstname"><br><br>
+        <p id="p1"></p>
+        <label>Last Name</label>
+        
+        <input type="text" name=secondname id="lastname"><br><br>
+        <p id="p2"></p>
+        <label>AGE</label>
+        <input type="text" name=age id="agee"><br><br>
+        <p id="p3"></p>
+        <label>Address</label>
+        <input type="text" name="address" id="addressid" size=35><br><br> 
+
+        <label>Email</label>
+        <input type="email" name="email" id="emailid" placeholder="XXX@gmail.com"><br><br>
+        <p id="p4"></p>
+        <label>Contact number</label>
+        <input type="tel" name="phone" id="phoneid" placeholder="000-000-0000"><br><br>
+        <p id="p5"></p>
+        <label>Country</label>
+               
+                  <select name="Country" id = "country" >
+                     <option value="-1" selected>[choose yours]</option>
+                     <option value="USA">USA</option>
+                     <option value="UK">UK</option>
+                     <option value="INDIA">INDIA</option>
+					 <option value="AUSTRALIA">AUSTRALIA</option>
+					 <option value="JAPAN">JAPAN</option>
+					 <option value="CHINA">CHINA</option>
+                  </select><br><br>  
+                  <p id="p6"></p>  
+        <input type="button" name="submit" value="submit" onclick="validate()" >
+    </form>
+    <br>
+            <table style="width:100%" id="mytable">
+                    <tr>
+                      <th>Firstname</th>
+                      <th>Lastname</th> 
+                      <th>Age</th>
+                      <th>Address</th>
+                      <th>Email</th>
+                      <th>Contact</th>
+					  <th>Country</th>
+                    </tr>
+    </table>
+    <script src="bindu.js"></script>
+    </body>
+
+</html>
